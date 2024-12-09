@@ -1,8 +1,104 @@
-.header{
- display: flex;
- justify-content: center;   
+body{
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.header img{
+/*header*/
+.header{
+    display: flex;
+    gap: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px #222222;
+    box-shadow: -1px 5px 5px #222222;
+    position: fixed;
+    width: 100%;
+}
+
+#logo img{
     width: 20%;
 }
+
+#Shopping_Cart img{
+    width: 10%;
+}
+
+#logo{
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+#Shopping_Cart{
+    margin-top: -2%;
+}
+
+.link{
+    display: flex;
+    margin-left: -700px;
+    gap: 20%;
+    padding-right: 20%;
+    margin-right: 100px;
+    margin-top: 0.5%;
+}
+
+.header-right{
+    display: flex;
+    margin-right: -800px;
+    gap: 10%;
+    margin-top: 0.5%;
+}
+
+.header a{
+    text-decoration: none;
+    color: #222222;
+    
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.header-right a:hover{
+    text-decoration: underline;
+}
+/* Header slutt */
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    gap: 10%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px -3px 5px #222222;
+    box-shadow: -1px -3px 5px #222222;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.footer-left{
+    margin-left: 1%;
+}
+
+.footer-right{
+    margin-top: 2%;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+/*Footer slutt*/
+
+/*Hjemmeside innhold*/
+.overskrift{
+    
+}
+/*Hjemmeside slutt*/

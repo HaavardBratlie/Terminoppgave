@@ -10,15 +10,24 @@
 
 <body>
     <div class="header">
-        <a href="/">HOME</a>
-        <a href="products">PRODUCTS</a>
-        <a href="favorite">FAVORITE</a>
-        <a href="/"><img src="/static/images/img/New_Logo_Large.png"></a>
-        <a href="/login.html">LOGG INN</a>
-        <a href="/cart.html"><img src="/static/images/img/Shopping_Cart.png"></a>
+        <a id="logo" href="/"><img src="/static/images/img/New_Logo_Large.png"></a>
+        <div class="link">
+            <a href="/">HOME</a>
+            <a href="products">PRODUCTS</a>
+            <a href="favorite">FAVORITE</a>
+        </div>
+        <div class="header-right">
+            <a href="/login.html">LOGIN/REGISTER</a>
+            <a id="Shopping_Cart" href="/cart.html"><img src="/static/images/img/Shopping_Cart.png"></a>
+        </div>
+
     </div>
+
+
     {% block body %}
-    <h2>FOR DIN LOMMEBOK</h2>
+    <div class="overskrift">
+        <h2>FOR DIN LOMMEBOK</h2>
+    </div>
     {% endblock %}
 
     <div class="footer">
