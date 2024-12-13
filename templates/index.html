@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HBdesigns</title>
     <link rel="stylesheet" href="/static/style.css">
+    <link rel="" href="">
+    
 </head>
 
 <body>
@@ -17,7 +19,7 @@
             <a href="favorite">FAVORITE</a>
         </div>
         <div class="header-right">
-            <a href="/login.html">LOGIN/REGISTER</a>
+            <a href="login">LOGIN</a>
             <a id="Shopping_Cart" href="/cart.html"><img src="/static/images/img/Shopping_Cart.png"></a>
         </div>
 
@@ -25,8 +27,14 @@
 
 
     {% block body %}
+    <p>Hei, {{ email }}!</p>
     <div class="overskrift">
         <h2>FOR DIN LOMMEBOK</h2>
+    </div>
+    <div class="bilder">
+        <img src="/static/images/gensere/beige3.jpg">
+        <img src="/static/images/gensere/cocacola1.jpg" alt="">
+        <img src="/static/images/gensere/gray1.jpg" alt="">
     </div>
     {% endblock %}
 

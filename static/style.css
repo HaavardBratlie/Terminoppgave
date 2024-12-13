@@ -11,8 +11,8 @@ body{
     border-radius: 10px;
     box-shadow: 1px 5px 5px #222222;
     box-shadow: -1px 5px 5px #222222;
-    position: fixed;
-    width: 100%;
+    padding-top: 1.5%;
+    
 }
 
 #logo img{
@@ -20,7 +20,7 @@ body{
 }
 
 #Shopping_Cart img{
-    width: 10%;
+    width: 50px;
 }
 
 #logo{
@@ -29,7 +29,7 @@ body{
 }
 
 #Shopping_Cart{
-    margin-top: -2%;
+    margin-top: -8%;
 }
 
 .link{
@@ -72,7 +72,6 @@ body{
     border-radius: 10px;
     box-shadow: 1px -3px 5px #222222;
     box-shadow: -1px -3px 5px #222222;
-    position: fixed;
     bottom: 0;
     width: 100%;
     
@@ -99,6 +98,56 @@ body{
 
 /*Hjemmeside innhold*/
 .overskrift{
-    
+    margin-left: 22%;
+}
+
+.bilder{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: 5%;
+}
+
+.bilder img{
+    width: 20%;
+    border-radius: 10px;
 }
 /*Hjemmeside slutt*/
+
+/*Login side*/
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: lightgray;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    
+}
+
+#new{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16.5%;
+    margin-top: -14.5%;
+    margin-left: 26%;
+}
+/*Login side slutt*/
+/*Registrer*/
+.register{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: lightgray;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 5%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+}
+/*Registrer slutt*/
